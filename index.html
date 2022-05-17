@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Donnie Roessling</h1>
+        <nav>
+            <ul>
+               <button class="navBtn" id="aboutBtn">About Me</button>
+               <button class="navBtn" id="contactBtn">Contact Me</button>
+               <button class="navBtn" id="workBtn">Work</button>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+
+        <aside id="leftDisplayContainer">
+
+            <p class="leftDisplayTitle">About Me</p>
+            <h1 id="leftDisplayContent">Hello, My name is Donaldson but I prefer to go by Donnie. For the past ten years I've worked in the service & sales industry. During that time I developed valuable communication and organization skills. I have since left the service and sales industry to pursue a career in the tech industry. I am attending UCF's full time full-stack coding bootcamp to help this transition, and I am excited to see what team I can benefit.</h1>
+            <h2 id="resume">Resume</h2>
+            <object
+            data='./assets/Donaldson_Roessling_Resume.PDF'
+            type="application/pdf"
+            width="678"
+            height="678"
+          >
+        
+            <iframe
+              src='./assets/Donaldson_Roessling_Resume.PDF'
+              width="500"
+              height="678"
+            >
+            <p>This browser does not support PDF!</p>
+            </iframe>
+          </object>
+        </aside>
+
+        <div id="mainRightSide"> <!--projectnav-->
+            <!--cant change name of div tags to make sense without breaking-->
+                    <div class="cards" id="topCard"><p class="cardTitle">Project One</p></div>
+                    <div class="cards"><p class="cardTitle">Project Two</p></div>
+                    <div class="cards"><p class="cardTitle">Project Three</p></div>
+                    <div class="cards"><p class="cardTitle">Project Four</p></div>
+                    <div class="cards"><p class="cardTitle">Project Five</p></div>
+
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Thanks for Visiting</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
