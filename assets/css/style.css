@@ -121,8 +121,8 @@ header {
                 font-size: x-large;
                 font-family:monospace ;
                 background-color:limegreen ;
-                border-top-right-radius: 10px;
-                border-bottom-right-radius: 10px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
 
             }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 
-#topCard{
+#projOne{
 
     background-image: url("/assets/IDunnoIcon_Mock.png");
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ footer {
     background-color: black;
     width: 100%;
 }
-#topCard:hover{
+#projOne:hover{
 
     background-image: url("/assets/IDunnoIcon_Mock.png");
     background-repeat: no-repeat;
@@ -187,4 +187,24 @@ footer {
     background-size: 50%;
     background-color: black;
     width: 100%;
+}
+
+#projTwo{
+
+    background-image: url("/assets/Planted_Icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: black;
+
+}
+
+#projTwo:hover{
+
+    background-image: url("/assets/Planted_Icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    background-color: black;
+
 }
