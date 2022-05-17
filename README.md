@@ -1,6 +1,7 @@
-# UCF_HomeWork_7
-UCF homework 7: Updated portfolio
+# UCF_Portfolio_Pass_3
 continuation of my portfolio, adding JS and refactoring
-need to add snapshot
-repository: https://github.com/Droessling94/UCF_HomeWork_7
-Live Page: https://droessling94.github.io/UCF_HomeWork_7/
+
+repository: https://github.com/Droessling94/PortfolioPass3
+Live Page: https://droessling94.github.io/PortfolioPass3/
+
+![Homepage Preview](/assets/Screenshot%202022-05-16%20233907.png)
